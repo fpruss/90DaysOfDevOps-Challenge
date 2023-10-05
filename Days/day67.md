@@ -1,0 +1,5 @@
+## My notes on Michael's [day67](https://www.90daysofdevops.com/2022/day67/)
+
+
+## Resources
+
