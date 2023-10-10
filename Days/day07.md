@@ -1,5 +1,5 @@
-From day 7 to day 12, Michael does some Go learning which I will skip here. I also want to learn go, but I want to seperate this
-from my DevOps learning path and do it properly at a different time.
+From day 7 to day 12, Michael does some [Go learning](https://www.90daysofdevops.com/2022/day07/) which I will skip here.
+I also want to learn Go, but I want to seperate this from my DevOps learning path and do it properly at a different time.
 So my day 7 corresponds to Michaels day 14 and from now on my day numbers won't match Michael's. I will use the 7 days I have won to dive deeper into DevOps tooling.
 
 ## My notes on Michael's [corresponding day](https://www.90daysofdevops.com/2022/day14/)
