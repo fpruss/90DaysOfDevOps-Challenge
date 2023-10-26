@@ -21,8 +21,6 @@ docker exec - Can be used to execute a command in a running container, i.e.:
 docker exec -it <container-name> /bin/bash - executes an interactive bash shell on the container.
 For more examples see second resource below.
 
-## My notes on Michael's [corresponding day](https://www.90daysofdevops.com/2022/day43/)
-
 ## Resources
 [Tech World with Nana - Docker for Beginners](https://www.youtube.com/watch?v=3c-iBn73dDE)
 [Docker Exec Docs](https://docs.docker.com/engine/reference/commandline/exec/)
