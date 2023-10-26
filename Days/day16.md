@@ -1,3 +1,4 @@
+#Docker 1
 Now skipping day 19 to day 41 of Michaels days to continue with the docker days.
 Will do the skipped days later on.
 
@@ -22,7 +23,7 @@ container. It's a snapshot of the libraries and dependencies required inside a
 container for an application to run.
 It's the actual package, the artifact that can be moved around.
 When the image is run, the container is created. The Image is just an artifact, that
-if run becomes a container.
+if run, becomes a container.
 
 ### Advantages of Comtainers
 Advantages for developer machines: Instead of having to install applications like
