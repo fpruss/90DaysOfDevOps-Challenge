@@ -9,6 +9,11 @@ on this topic.
 ## My notes on the resources below
 I think the attached resources are better than Michael's blog to learn or refresh docker knowledge.
 
+### What is Docker?
+A platform for consistently build, run and ship applications.
+The goal is to be intependend from infrastructure, so the application can run the
+same way on different machines.
+
 ### What is a container?
 A container is a way to package an application with their entire runtime enviroment,
 including all the necessary dependencies and configuration data. This makes the contained
@@ -25,10 +30,12 @@ It's the actual package, the artifact that can be moved around.
 When the image is run, the container is created. The Image is just an artifact, that
 if run, becomes a container.
 
-### Advantages of Comtainers
-Advantages for developer machines: Instead of having to install applications like
-MySql, and having to do it differently for each OS, developers just have to check
-out the container for MySql, which has it's own OS, a start script and configuration.
+### Advantages of Containers
+Without containers, dependencies like MySql would have to be installed on all machines and
+it has to be taken care its always the correct version. Also the machines the application
+should run on has to be configured always the same way (which could go wrong).
+A container in comparison has it's own filesystem, dependencies, a start script and configuration.
+This container is then deployed on all machines the application should run.
 Also starting an application is then done with the same command for all applications.
 Another advantage of using docker containers, is the possibility to run different
 versions of an application on the same machine without conflicts.
@@ -39,3 +46,4 @@ server, only the docker runtime has to be installed.
 [Tech World with Nana - Docker for Beginners](https://www.youtube.com/watch?v=3c-iBn73dDE)
 [Red Head - Containers](https://www.youtube.com/watch?v=3c-iBn73dDE)
 [AWS - Containers and Images](https://aws.amazon.com/compare/the-difference-between-docker-images-and-containers/)
+[Docker Tutorial by Mosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)
