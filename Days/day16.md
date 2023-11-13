@@ -35,6 +35,11 @@ It's the actual package, the artifact that can be moved around.
 When the image is run, the container is created. The Image is just an artifact, that
 if run, becomes a container.
 
+### Difference between Container and Image
+Docker containers are runtime instances of Docker images, whether running or stopped.
+Containers have a writable layer and the container runs the software.
+Image is the blueprint of a container.
+
 ### Advantages of Containers
 Without containers, dependencies like MySql would have to be installed on all machines and
 it has to be taken care its always the correct version. Also the machines the application
@@ -52,3 +57,4 @@ server, only the docker runtime has to be installed.
 [Red Head - Containers](https://www.youtube.com/watch?v=3c-iBn73dDE)
 [AWS - Containers and Images](https://aws.amazon.com/compare/the-difference-between-docker-images-and-containers/)
 [Docker Tutorial by Mosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)
+[Builduing Docker images](https://stackify.com/docker-build-a-beginners-guide-to-building-docker-images/)
