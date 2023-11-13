@@ -25,7 +25,12 @@ application image at the top and then configuration data on top of that.
 ### What is a docker image?
 A docker image is a read-only template that contains instructions for creating a
 container. It's a snapshot of the libraries and dependencies required inside a
-container for an application to run.
+container for an application to run. This typically includes
+- a cut-down OS
+- a runtime environment like node
+- application files
+- third-party libraries
+- environment variables
 It's the actual package, the artifact that can be moved around.
 When the image is run, the container is created. The Image is just an artifact, that
 if run, becomes a container.
