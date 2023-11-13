@@ -33,3 +33,4 @@ docker images - list images
 ## Resources
 [Tech World with Nana - Docker for Beginners](https://www.youtube.com/watch?v=3c-iBn73dDE)
 [Docker Docs - Commands](https://docs.docker.com/engine/reference/commandline/docker/)
+[Docker Tutorial by Mosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)

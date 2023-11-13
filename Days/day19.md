@@ -17,3 +17,4 @@ other RUN etc. commands are executed before)
 ## Resources
 [Tech World with Nana - Docker for Beginners](https://www.youtube.com/watch?v=3c-iBn73dDE)
 [Docker Compose Docs](https://docs.docker.com/compose/)
+[Docker Tutorial by Mosh](https://www.youtube.com/watch?v=pTFZFxd4hOI)
